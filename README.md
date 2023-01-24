@@ -47,7 +47,7 @@ Diversos estudos foram compilados e hoje se conhece precisamente a assinatura de
 
 Após calcular esses valores para cada texto, você deve comparar com a assinatura fornecida para os infectados por COH-PIAH. O grau de similaridade entre dois textos, $a$ e $b$, é dado pela fórmula:
 
-$S_{ab} = \frac{\sum_{i=1}^6 || f_{i,a} - f_{i,b} ||}{6}$
+$S_{ab} = \frac{\sum_{i=1}^{6} || f_{i,a} - f_{i,b} ||}{6}$
 
 Onde: 
 * $S_{ab}$ é o grau de similaridade entre os textos a e b; 
@@ -61,7 +61,7 @@ Para cada traço linguístico $i$ (tamanho médio da palavra, relação type-tok
 
 Dessa diferença se toma o módulo $(||...||)$, lembre-se da função abs do python.
 
-Somamos os resultados dos 6 trações linguísticos $(\sum_{i=1}^6)$
+Somamos os resultados dos 6 trações linguísticos $(\sum_{i=1}^{6})$
 
 E por final dividimos por 6 $(\frac{x}{6})$
 
