@@ -48,7 +48,7 @@ Diversos estudos foram compilados e hoje se conhece precisamente a assinatura de
 Após calcular esses valores para cada texto, você deve comparar com a assinatura fornecida para os infectados por COH-PIAH. O grau de similaridade entre dois textos, $a$ e $b$, é dado pela fórmula:
 
 $$
-S_{ab} = \frac{\sum_{i=1}^{6} || f_{i,a} - f_{i,b} ||}{6}
+S_{ab} = \frac{\displaystyle\sum_{i=1}^{6} || f_{i,a} - f_{i,b} ||}{6}
 $$
 
 Onde: 
