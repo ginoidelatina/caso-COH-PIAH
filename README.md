@@ -61,9 +61,9 @@ Para cada traço linguístico $i$ (tamanho médio da palavra, relação type-tok
 
 Dessa diferença se toma o módulo $(||...||)$, lembre-se da função abs do python.
 
-Somamos os resultados dos 6 trações linguísticos ($\sum_{i=1}^6)$)
+Somamos os resultados dos 6 trações linguísticos $(\sum_{i=1}^6)$
 
-E por final dividimos por 6 $\frac{x}{6}$
+E por final dividimos por 6 $(\frac{x}{6})$
 
 Perceba que quanto mais similares $a$ e $b$ forem, menor $S_{ab}$ será. Para cada texto, você deve calcular o grau de similaridade com a assinatura do portador de COH-PIAH e, no final, exibir qual texto mais provavelmente foi escrito por algum aluno infectado (ou seja, o texto com assinatura mais similar à assinatura dada).
 
